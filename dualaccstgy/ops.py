@@ -7,9 +7,8 @@ import requests
 
 #enter your API Key 2nd account mohan nekkanti  and Secret here.
 
-key="2bc2dbe8f7b1351b0d85cc8406b7341287c24d74f8bef11b"
-secret ="088b5b81ca4eb5639e88cdf110f43d160c2847c7bb85753a19162512ca8b7059"
-
+key=""
+secret=""
 # python3
 secret_bytes = bytes(secret, encoding='utf-8')
 def place_order(pair, side, price, qnty, lvg):
