@@ -5,8 +5,9 @@ import time
 import requests
 
 # Enter your API Key and Secret here.
-key = "44ed7979643b133d4bf23ecd145c8d30cccbee6b829a4f8d"
-secret = "69b9938908fab3a9965891d8d318e5db2ae8105f2d518a801273cbdf7ad4f552"
+
+key=""
+secret=""
 
 def calculate_lslp(bp, psl=5.0, lvg=5):
     return bp - (bp * psl / (lvg * 100))
